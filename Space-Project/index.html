@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel ="stylesheet" type = "text/css" href = "styles.css">
+        <title>Home</title>
+    </head>
+    <body onload = "returndata()">
+        <div id = "container">
+            <div id = "header">
+                <img class ="logo" src = "images/logo.png" alt="space logo">
+                <form>
+                    <a id = "registerlink" href ="#account"><div id = "status"></div></a>
+                </form>
+                <div id = "navbar">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="solarsystem.html">Solar System</a></li>
+                        <li><a href="planets.html">Planets</a></li>
+                        <li><a href="blackholes.html">Black Holes</a></li>
+                        <li><a href="ourstory.html">Our story</a></li>
+                        <li><a href="makingof.html">Making of</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id = "wrapper">
+                <div id ="title">
+                    <p id ="heading">SPACE</p>
+                    <h2 id = "intro"><center>welcome to our website where you can explore the galaxy with a click of a button</center></h2>
+                    <h3 id = "intro2">The space is incredibly massive and it contains a very intresting facts and theories for anyone who is intrested to learn about it, from solar system, planets to black holes theories. our website has it all </h3>
+                </div>
+                <div id = "content">
+                    <div id ="items">
+                        <div class ="solar">
+                            <img class ="resize" src ="images/solar4.webp" alt="image of the solar system">
+                            <h3 class ="mini">Solar system</h3>
+                            <p class = "brif">The Solar System forms a part of the Milky Way Galaxy, it consists of a Sun with 8 planets orbiting around it</p>
+                            <br>
+                            <a class = "clickmore" href ="solarsystem.html">Read more</a>
+                        </div>
+                        <div class ="planets">
+                            <img class ="resize" src ="images/earth5.webp" alt="image of Earth">
+                            <h3 class ="mini">Planets</h3>
+                            <p class = "brif">There are 8 planets within our solar system: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune.</p>
+                           
+                            <a class = "clickmore" href ="planets.html">Read more</a>                  
+                        </div>
+                        <div class ="hole">
+                            <img class ="resize" src ="images/hole2.webp" alt="image of a black hole">
+                            <h3 class ="mini">Black hole</h3>
+                             <p class = "brif">A black hole is a cosmic body which has extremely strong gravity, such that, it does not let any particle escape from it, not even light.</p>
+                            
+                            <a class = "clickmore" href ="blackholes.html">Read more</a>
+                        </div>
+                    </div>
+                <div id = "userinput">  
+                    <div id = "tform">
+                        <form>
+                        <table id = "tcenter">
+                            <h2>Please create an <a class ="nonstylelink" name = "account">account</a> here before exploring the space!</h2>
+                            <ul>
+                          <tr>
+                                <td class = "tabledata">First Name:</td>
+                                <td><input type= "text" id ="firstName"></td>
+                                <td><div id = "firstError"></div></td>
+                            </tr>
+                                <td class = "tabledata">Last Name:</td><td><input type= "text" id ="lastName"></td>
+                                <td><div id = "lastError"></div></td>
+                            <tr>
+                                <td class = "tabledata">Email:</td>
+                                <td><input type = "email" id ="userEmail" name = "email"></td>
+                                <td><div id = "emailError"></div></td>
+                                </tr>
+                            <tr>
+                                <td></td>
+                                <td><input type="button" onclick="savedata()" id = "submit" value="REGISTER"></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td><div id = "success"></div></td>
+                            </tr>
+                            </ul>
+                        </table>
+                        </form>
+                    </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div id ="footer">
+                <div class ="fnavbar">
+                    <p> <a href = "index.html"> Home</a> |<a href = "ourstory.html"> Our story </a> </p>
+                    <p>Contact us:</p> <p><a href = "https://www.instagram.com/">Our instagram</a> </p><p><a href ="https://twitter.com/"> Our twitter</a></p>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="javascript.js">
+    </script>
+</html>
+
+<!--refrences-->
+Screen Resolution:1920x1080
+<!--Photos-homepage-->
+<!--space_earth.jpg--><!--https://www.wallpaperflare.com/planet-illustration-stars-space-art-painting-drawing-cgi-wallpaper-mfzgn-->
+<!--earth5.webp--><!--https://www.livescience.com/19102-amazing-facts-earth.html-->
+<!--hole2.webp--><!--https://www.newscientist.com/article/2198937-first-ever-picture-of-a-black-hole-may-be-revealed-this-week/-->
+<!--earth2.jpeg--><!--https://www.pexels.com/photo/planet-earth-87651/-->
+<!--solar.jpg--><!--https://m useumsvictoria.com.au/scienceworks/visiting/melbourne-planetarium/fact-sheets/planets-of-the-solar-system/-->
+<!--solar4.webp--><!--https://www.livescience.com/our-solar-system.html-->
